@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+  }
+  input,
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input {
+…    background: tomato;
+    color: white;
+  }
+  
