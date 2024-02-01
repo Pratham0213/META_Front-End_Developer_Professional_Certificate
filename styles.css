@@ -1,0 +1,148 @@
+body {
+    background-color: #79abd4;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.11rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #333333;
+    border-radius: 0.22rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.35rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a {
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    text-decoration: underline;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top:1rem;
+    margin-bottom: 1px;
+}
+
+article {
+    flex: 2;
+    border-radius: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article ul {
+    list-style: none;
+    font-size: 2.3rem;
+}
+
+article a:link {
+    font-size: 1.3rem;
+}
+
+article a:hover {
+    color: #56a087;
+}
+
+article a:active {
+    color: #2a6e4f;
+    background-color: #0e143a
+}
+
+main article {
+    background-color: #5e5ad1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#hero {
+    background-image: url(Logo_footer.png);
+    background-size: cover;
+    background-position:center;
+    color: #0c3b2c;
+    text-shadow: 2px 2px 8px #FFF9B0;
+    text-align:center;
+}
+
+#hero h1 {
+    margin-right: 2rem;
+    font-weight: 600;
+    font-size: 75px;
+}
+
+#hero p {
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+
+footer {
+    margin: 1.50rem;
+    display: flex;
+    gap: 1rem 1rem;
+}
+
+footer img {
+    max-width:50%;
+}
+
+footer p {
+    border-top: #200b47;
+    border-style: solid;
+    border-width: 0.55rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align:right;
+}
+
+footer div {
+    flex: 1;
+}
